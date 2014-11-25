@@ -18,18 +18,14 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "puli/symfony-puli-bundle": "~1.0@dev",
-        "puli/puli-composer-plugin": "~1.0@dev",
-        "puli/puli-cli": "~1.0@dev",
-        "puli/puli": "~1.0@dev",
-        "puli/symfony-puli-bridge": "~1.0@dev",
-        "puli/twig-puli-extension": "~1.0@dev",
-        "puli/puli-package-manager": "~1.0@dev",
-        "puli/json": "~1.0@dev"
+        "puli/symfony-puli-bundle": "~1.0@dev"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "puli/puli-cli": "~1.0@dev",
+        "puli/puli-composer-plugin": "~1.0@dev"
     },
+    "minimum-stability": "dev",
     "scripts": {
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
