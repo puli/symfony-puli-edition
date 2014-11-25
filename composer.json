@@ -20,6 +20,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "puli/symfony-puli-bundle": "~1.0@dev",
         "puli/puli-composer-plugin": "~1.0@dev",
+        "puli/puli-cli": "~1.0@dev",
         "puli/puli": "~1.0@dev",
         "puli/symfony-puli-bridge": "~1.0@dev",
         "puli/twig-puli-extension": "~1.0@dev",
