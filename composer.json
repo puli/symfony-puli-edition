@@ -19,10 +19,12 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "puli/symfony-puli-bundle": "~1.0@dev",
+        "puli/puli-composer-plugin": "~1.0@dev",
         "puli/puli": "~1.0@dev",
-        "puli/composer-puli-plugin": "~1.0@dev",
         "puli/symfony-puli-bridge": "~1.0@dev",
-        "puli/twig-puli-extension": "~1.0@dev"
+        "puli/twig-puli-extension": "~1.0@dev",
+        "puli/puli-package-manager": "~1.0@dev",
+        "puli/json": "~1.0@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -59,12 +61,6 @@
         },
         "branch-alias": {
             "dev-master": "2.5-dev"
-        },
-        "resources": {
-            "/app": "app/Resources",
-            "/app/config": "app/config",
-            "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
-            "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
         }
     }
 }
