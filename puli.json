@@ -5,9 +5,6 @@
         "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
         "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
     },
-    "package-repository": "vendor/puli/packages.json",
-    "resource-repository": "vendor/resource-repository.php",
-    "resource-cache": "vendor/puli/cache",
     "plugins": [
         "Puli\\Extension\\Composer\\ComposerPlugin"
     ]
