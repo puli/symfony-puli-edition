@@ -18,12 +18,10 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "puli/symfony-puli-bundle": "~1.0@dev"
+        "puli/symfony-bundle": "~1.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
-        "puli/puli-cli": "~1.0@dev",
-        "puli/puli-composer-plugin": "~1.0@dev"
+        "sensio/generator-bundle": "~2.3"
     },
     "minimum-stability": "dev",
     "scripts": {
