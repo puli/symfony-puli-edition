@@ -4,5 +4,167 @@
         "/app/config": "app/config",
         "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
         "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
+    },
+    "packages": {
+        "seld/jsonlint": {
+            "installPath": "vendor/seld/jsonlint",
+            "installer": "Composer"
+        },
+        "twig/twig": {
+            "installPath": "vendor/twig/twig",
+            "installer": "Composer"
+        },
+        "psr/log": {
+            "installPath": "vendor/psr/log",
+            "installer": "Composer"
+        },
+        "doctrine/lexer": {
+            "installPath": "vendor/doctrine/lexer",
+            "installer": "Composer"
+        },
+        "doctrine/inflector": {
+            "installPath": "vendor/doctrine/inflector",
+            "installer": "Composer"
+        },
+        "doctrine/collections": {
+            "installPath": "vendor/doctrine/collections",
+            "installer": "Composer"
+        },
+        "doctrine/cache": {
+            "installPath": "vendor/doctrine/cache",
+            "installer": "Composer"
+        },
+        "doctrine/annotations": {
+            "installPath": "vendor/doctrine/annotations",
+            "installer": "Composer"
+        },
+        "doctrine/common": {
+            "installPath": "vendor/doctrine/common",
+            "installer": "Composer"
+        },
+        "doctrine/instantiator": {
+            "installPath": "vendor/doctrine/instantiator",
+            "installer": "Composer"
+        },
+        "doctrine/orm": {
+            "installPath": "vendor/doctrine/orm",
+            "installer": "Composer"
+        },
+        "doctrine/doctrine-cache-bundle": {
+            "installPath": "vendor/doctrine/doctrine-cache-bundle",
+            "installer": "Composer"
+        },
+        "jdorn/sql-formatter": {
+            "installPath": "vendor/jdorn/sql-formatter",
+            "installer": "Composer"
+        },
+        "doctrine/doctrine-bundle": {
+            "installPath": "vendor/doctrine/doctrine-bundle",
+            "installer": "Composer"
+        },
+        "twig/extensions": {
+            "installPath": "vendor/twig/extensions",
+            "installer": "Composer"
+        },
+        "symfony/assetic-bundle": {
+            "installPath": "vendor/symfony/assetic-bundle",
+            "installer": "Composer"
+        },
+        "swiftmailer/swiftmailer": {
+            "installPath": "vendor/swiftmailer/swiftmailer",
+            "installer": "Composer"
+        },
+        "symfony/swiftmailer-bundle": {
+            "installPath": "vendor/symfony/swiftmailer-bundle",
+            "installer": "Composer"
+        },
+        "monolog/monolog": {
+            "installPath": "vendor/monolog/monolog",
+            "installer": "Composer"
+        },
+        "symfony/monolog-bundle": {
+            "installPath": "vendor/symfony/monolog-bundle",
+            "installer": "Composer"
+        },
+        "sensiolabs/security-checker": {
+            "installPath": "vendor/sensiolabs/security-checker",
+            "installer": "Composer"
+        },
+        "sensio/distribution-bundle": {
+            "installPath": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
+            "installer": "Composer"
+        },
+        "sensio/framework-extra-bundle": {
+            "installPath": "vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle",
+            "installer": "Composer"
+        },
+        "incenteev/composer-parameter-handler": {
+            "installPath": "vendor/incenteev/composer-parameter-handler",
+            "installer": "Composer"
+        },
+        "webmozart/path-util": {
+            "installPath": "vendor/webmozart/path-util",
+            "installer": "Composer"
+        },
+        "puli/repository": {
+            "installPath": "vendor/puli/repository",
+            "installer": "Composer"
+        },
+        "puli/twig-extension": {
+            "installPath": "vendor/puli/twig-extension",
+            "installer": "Composer"
+        },
+        "puli/assetic-extension": {
+            "installPath": "vendor/puli/assetic-extension",
+            "installer": "Composer"
+        },
+        "puli/symfony-bridge": {
+            "installPath": "vendor/puli/symfony-bridge",
+            "installer": "Composer"
+        },
+        "justinrainbow/json-schema": {
+            "installPath": "vendor/justinrainbow/json-schema",
+            "installer": "Composer"
+        },
+        "webmozart/json": {
+            "installPath": "vendor/webmozart/json",
+            "installer": "Composer"
+        },
+        "puli/repository-manager": {
+            "installPath": "vendor/puli/repository-manager",
+            "installer": "Composer"
+        },
+        "puli/composer-plugin": {
+            "installPath": "vendor/puli/composer-plugin",
+            "installer": "Composer"
+        },
+        "puli/cli": {
+            "installPath": "vendor/puli/cli",
+            "installer": "Composer"
+        },
+        "puli/symfony-bundle": {
+            "installPath": "vendor/puli/symfony-bundle",
+            "installer": "Composer"
+        },
+        "sensio/generator-bundle": {
+            "installPath": "vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle",
+            "installer": "Composer"
+        },
+        "doctrine/dbal": {
+            "installPath": "vendor/doctrine/dbal",
+            "installer": "Composer"
+        },
+        "kriswallsmith/assetic": {
+            "installPath": "vendor/kriswallsmith/assetic",
+            "installer": "Composer"
+        },
+        "puli/discovery": {
+            "installPath": "vendor/puli/discovery",
+            "installer": "Composer"
+        },
+        "symfony/symfony": {
+            "installPath": "vendor/symfony/symfony",
+            "installer": "Composer"
+        }
     }
 }
