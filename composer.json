@@ -58,5 +58,8 @@
         "branch-alias": {
             "dev-master": "2.5-dev"
         }
+    },
+    "support": {
+        "issues": "https://github.com/puli/puli/issues"
     }
 }
