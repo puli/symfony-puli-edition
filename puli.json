@@ -1,4 +1,10 @@
 {
+    "resources": {
+        "/app": "app/Resources",
+        "/app/config": "app/config",
+        "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
+        "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
+    },
     "packages": {
         "seld/jsonlint": {
             "install-path": "vendor/seld/jsonlint",
@@ -70,6 +76,14 @@
         },
         "symfony/swiftmailer-bundle": {
             "install-path": "vendor/symfony/swiftmailer-bundle",
+            "installer": "Composer"
+        },
+        "sensiolabs/security-checker": {
+            "install-path": "vendor/sensiolabs/security-checker",
+            "installer": "Composer"
+        },
+        "sensio/distribution-bundle": {
+            "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
             "installer": "Composer"
         },
         "sensio/framework-extra-bundle": {
@@ -162,14 +176,6 @@
         },
         "symfony/symfony": {
             "install-path": "vendor/symfony/symfony",
-            "installer": "Composer"
-        },
-        "sensio/distribution-bundle": {
-            "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
-            "installer": "Composer"
-        },
-        "sensiolabs/security-checker": {
-            "install-path": "vendor/sensiolabs/security-checker",
             "installer": "Composer"
         }
     }
