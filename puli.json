@@ -5,6 +5,12 @@
         "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
         "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
     },
+    "config": {
+        "factory": {
+            "file": "src/Acme/PuliFactory.php",
+            "class": "Acme\\PuliFactory"
+        }
+    },
     "packages": {
         "seld/jsonlint": {
             "install-path": "vendor/seld/jsonlint",
@@ -76,10 +82,6 @@
         },
         "symfony/swiftmailer-bundle": {
             "install-path": "vendor/symfony/swiftmailer-bundle",
-            "installer": "Composer"
-        },
-        "sensiolabs/security-checker": {
-            "install-path": "vendor/sensiolabs/security-checker",
             "installer": "Composer"
         },
         "sensio/distribution-bundle": {
