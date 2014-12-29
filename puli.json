@@ -72,14 +72,6 @@
             "install-path": "vendor/symfony/swiftmailer-bundle",
             "installer": "Composer"
         },
-        "sensiolabs/security-checker": {
-            "install-path": "vendor/sensiolabs/security-checker",
-            "installer": "Composer"
-        },
-        "sensio/distribution-bundle": {
-            "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
-            "installer": "Composer"
-        },
         "sensio/framework-extra-bundle": {
             "install-path": "vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle",
             "installer": "Composer"
@@ -170,6 +162,10 @@
         },
         "symfony/symfony": {
             "install-path": "vendor/symfony/symfony",
+            "installer": "Composer"
+        },
+        "sensio/distribution-bundle": {
+            "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
             "installer": "Composer"
         }
     }
