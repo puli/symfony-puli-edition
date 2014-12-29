@@ -167,6 +167,10 @@
         "sensio/distribution-bundle": {
             "install-path": "vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle",
             "installer": "Composer"
+        },
+        "sensiolabs/security-checker": {
+            "install-path": "vendor/sensiolabs/security-checker",
+            "installer": "Composer"
         }
     }
 }
