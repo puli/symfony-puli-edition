@@ -1,15 +1,9 @@
 {
     "resources": {
-        "/app": "app/Resources",
-        "/app/config": "app/config",
         "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
-        "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller"
-    },
-    "config": {
-        "factory": {
-            "file": "src/Acme/PuliFactory.php",
-            "class": "Acme\\PuliFactory"
-        }
+        "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller",
+        "/app": "app/Resources",
+        "/app/config": "app/config"
     },
     "packages": {
         "seld/jsonlint": {
