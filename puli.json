@@ -8,76 +8,124 @@
         "/app/config": "app/config"
     },
     "packages": {
-        "seld/jsonlint": {
-            "install-path": "vendor/seld/jsonlint",
-            "installer": "Composer"
-        },
-        "twig/twig": {
-            "install-path": "vendor/twig/twig",
-            "installer": "Composer"
-        },
-        "psr/log": {
-            "install-path": "vendor/psr/log",
-            "installer": "Composer"
-        },
-        "doctrine/lexer": {
-            "install-path": "vendor/doctrine/lexer",
-            "installer": "Composer"
-        },
-        "doctrine/inflector": {
-            "install-path": "vendor/doctrine/inflector",
-            "installer": "Composer"
-        },
-        "doctrine/collections": {
-            "install-path": "vendor/doctrine/collections",
-            "installer": "Composer"
-        },
-        "doctrine/cache": {
-            "install-path": "vendor/doctrine/cache",
+        "beberlei/assert": {
+            "install-path": "vendor/beberlei/assert",
             "installer": "Composer"
         },
         "doctrine/annotations": {
             "install-path": "vendor/doctrine/annotations",
             "installer": "Composer"
         },
+        "doctrine/cache": {
+            "install-path": "vendor/doctrine/cache",
+            "installer": "Composer"
+        },
+        "doctrine/collections": {
+            "install-path": "vendor/doctrine/collections",
+            "installer": "Composer"
+        },
         "doctrine/common": {
             "install-path": "vendor/doctrine/common",
             "installer": "Composer"
         },
-        "doctrine/instantiator": {
-            "install-path": "vendor/doctrine/instantiator",
-            "installer": "Composer"
-        },
-        "doctrine/orm": {
-            "install-path": "vendor/doctrine/orm",
-            "installer": "Composer"
-        },
-        "doctrine/doctrine-cache-bundle": {
-            "install-path": "vendor/doctrine/doctrine-cache-bundle",
-            "installer": "Composer"
-        },
-        "jdorn/sql-formatter": {
-            "install-path": "vendor/jdorn/sql-formatter",
+        "doctrine/dbal": {
+            "install-path": "vendor/doctrine/dbal",
             "installer": "Composer"
         },
         "doctrine/doctrine-bundle": {
             "install-path": "vendor/doctrine/doctrine-bundle",
             "installer": "Composer"
         },
-        "twig/extensions": {
-            "install-path": "vendor/twig/extensions",
+        "doctrine/doctrine-cache-bundle": {
+            "install-path": "vendor/doctrine/doctrine-cache-bundle",
             "installer": "Composer"
         },
-        "symfony/assetic-bundle": {
-            "install-path": "vendor/symfony/assetic-bundle",
+        "doctrine/inflector": {
+            "install-path": "vendor/doctrine/inflector",
             "installer": "Composer"
         },
-        "swiftmailer/swiftmailer": {
-            "install-path": "vendor/swiftmailer/swiftmailer",
+        "doctrine/instantiator": {
+            "install-path": "vendor/doctrine/instantiator",
             "installer": "Composer"
         },
-        "symfony/swiftmailer-bundle": {
-            "install-path": "vendor/symfony/swiftmailer-bundle",
+        "doctrine/lexer": {
+            "install-path": "vendor/doctrine/lexer",
+            "installer": "Composer"
+        },
+        "doctrine/orm": {
+            "install-path": "vendor/doctrine/orm",
+            "installer": "Composer"
+        },
+        "incenteev/composer-parameter-handler": {
+            "install-path": "vendor/incenteev/composer-parameter-handler",
+            "installer": "Composer"
+        },
+        "jdorn/sql-formatter": {
+            "install-path": "vendor/jdorn/sql-formatter",
+            "installer": "Composer"
+        },
+        "justinrainbow/json-schema": {
+            "install-path": "vendor/justinrainbow/json-schema",
+            "installer": "Composer"
+        },
+        "kriswallsmith/assetic": {
+            "install-path": "vendor/kriswallsmith/assetic",
+            "installer": "Composer"
+        },
+        "monolog/monolog": {
+            "install-path": "vendor/monolog/monolog",
+            "installer": "Composer"
+        },
+        "psr/log": {
+            "install-path": "vendor/psr/log",
+            "installer": "Composer"
+        },
+        "puli/assetic-extension": {
+            "install-path": "vendor/puli/assetic-extension",
+            "installer": "Composer"
+        },
+        "puli/cli": {
+            "install-path": "vendor/puli/cli",
+            "installer": "Composer"
+        },
+        "puli/composer-plugin": {
+            "install-path": "vendor/puli/composer-plugin",
+            "installer": "Composer"
+        },
+        "puli/discovery": {
+            "install-path": "vendor/puli/discovery",
+            "installer": "Composer"
+        },
+        "puli/factory": {
+            "install-path": "vendor/puli/factory",
+            "installer": "Composer"
+        },
+        "puli/repository": {
+            "install-path": "vendor/puli/repository",
+            "installer": "Composer"
+        },
+        "puli/repository-manager": {
+            "install-path": "vendor/puli/repository-manager",
+            "installer": "Composer"
+        },
+        "puli/symfony-bridge": {
+            "install-path": "vendor/puli/symfony-bridge",
+            "installer": "Composer"
+        },
+        "puli/symfony-bundle": {
+            "install-path": "vendor/puli/symfony-bundle",
+            "installer": "Composer"
+        },
+        "puli/twig-extension": {
+            "install-path": "vendor/puli/twig-extension",
+            "installer": "Composer"
+        },
+        "rhumsaa/uuid": {
+            "install-path": "vendor/rhumsaa/uuid",
+            "installer": "Composer"
+        },
+        "seld/jsonlint": {
+            "install-path": "vendor/seld/jsonlint",
             "installer": "Composer"
         },
         "sensio/distribution-bundle": {
@@ -88,104 +136,56 @@
             "install-path": "vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle",
             "installer": "Composer"
         },
-        "incenteev/composer-parameter-handler": {
-            "install-path": "vendor/incenteev/composer-parameter-handler",
-            "installer": "Composer"
-        },
-        "webmozart/path-util": {
-            "install-path": "vendor/webmozart/path-util",
-            "installer": "Composer"
-        },
-        "puli/repository": {
-            "install-path": "vendor/puli/repository",
-            "installer": "Composer"
-        },
-        "puli/twig-extension": {
-            "install-path": "vendor/puli/twig-extension",
-            "installer": "Composer"
-        },
-        "puli/assetic-extension": {
-            "install-path": "vendor/puli/assetic-extension",
-            "installer": "Composer"
-        },
-        "puli/symfony-bridge": {
-            "install-path": "vendor/puli/symfony-bridge",
-            "installer": "Composer"
-        },
-        "justinrainbow/json-schema": {
-            "install-path": "vendor/justinrainbow/json-schema",
-            "installer": "Composer"
-        },
-        "webmozart/json": {
-            "install-path": "vendor/webmozart/json",
-            "installer": "Composer"
-        },
-        "puli/repository-manager": {
-            "install-path": "vendor/puli/repository-manager",
-            "installer": "Composer"
-        },
-        "puli/composer-plugin": {
-            "install-path": "vendor/puli/composer-plugin",
-            "installer": "Composer"
-        },
-        "puli/cli": {
-            "install-path": "vendor/puli/cli",
-            "installer": "Composer"
-        },
-        "puli/symfony-bundle": {
-            "install-path": "vendor/puli/symfony-bundle",
-            "installer": "Composer"
-        },
         "sensio/generator-bundle": {
             "install-path": "vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle",
-            "installer": "Composer"
-        },
-        "kriswallsmith/assetic": {
-            "install-path": "vendor/kriswallsmith/assetic",
-            "installer": "Composer"
-        },
-        "puli/discovery": {
-            "install-path": "vendor/puli/discovery",
-            "installer": "Composer"
-        },
-        "monolog/monolog": {
-            "install-path": "vendor/monolog/monolog",
-            "installer": "Composer"
-        },
-        "symfony/monolog-bundle": {
-            "install-path": "vendor/symfony/monolog-bundle",
-            "installer": "Composer"
-        },
-        "webmozart/glob": {
-            "install-path": "vendor/webmozart/glob",
-            "installer": "Composer"
-        },
-        "beberlei/assert": {
-            "install-path": "vendor/beberlei/assert",
-            "installer": "Composer"
-        },
-        "webmozart/key-value-store": {
-            "install-path": "vendor/webmozart/key-value-store",
-            "installer": "Composer"
-        },
-        "doctrine/dbal": {
-            "install-path": "vendor/doctrine/dbal",
-            "installer": "Composer"
-        },
-        "symfony/symfony": {
-            "install-path": "vendor/symfony/symfony",
             "installer": "Composer"
         },
         "sensiolabs/security-checker": {
             "install-path": "vendor/sensiolabs/security-checker",
             "installer": "Composer"
         },
-        "puli/factory": {
-            "install-path": "vendor/puli/factory",
+        "swiftmailer/swiftmailer": {
+            "install-path": "vendor/swiftmailer/swiftmailer",
             "installer": "Composer"
         },
-        "rhumsaa/uuid": {
-            "install-path": "vendor/rhumsaa/uuid",
+        "symfony/assetic-bundle": {
+            "install-path": "vendor/symfony/assetic-bundle",
+            "installer": "Composer"
+        },
+        "symfony/monolog-bundle": {
+            "install-path": "vendor/symfony/monolog-bundle",
+            "installer": "Composer"
+        },
+        "symfony/swiftmailer-bundle": {
+            "install-path": "vendor/symfony/swiftmailer-bundle",
+            "installer": "Composer"
+        },
+        "symfony/symfony": {
+            "install-path": "vendor/symfony/symfony",
+            "installer": "Composer"
+        },
+        "twig/extensions": {
+            "install-path": "vendor/twig/extensions",
+            "installer": "Composer"
+        },
+        "twig/twig": {
+            "install-path": "vendor/twig/twig",
+            "installer": "Composer"
+        },
+        "webmozart/glob": {
+            "install-path": "vendor/webmozart/glob",
+            "installer": "Composer"
+        },
+        "webmozart/json": {
+            "install-path": "vendor/webmozart/json",
+            "installer": "Composer"
+        },
+        "webmozart/key-value-store": {
+            "install-path": "vendor/webmozart/key-value-store",
+            "installer": "Composer"
+        },
+        "webmozart/path-util": {
+            "install-path": "vendor/webmozart/path-util",
             "installer": "Composer"
         }
     }
