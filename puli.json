@@ -37,15 +37,11 @@
             "installer": "composer"
         },
         "doctrine/doctrine-cache-bundle": {
-            "install-path": "vendor/doctrine/doctrine-cache-bundle",
+            "install-path": "vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle",
             "installer": "composer"
         },
         "doctrine/inflector": {
             "install-path": "vendor/doctrine/inflector",
-            "installer": "composer"
-        },
-        "doctrine/instantiator": {
-            "install-path": "vendor/doctrine/instantiator",
             "installer": "composer"
         },
         "doctrine/lexer": {
@@ -57,7 +53,7 @@
             "installer": "composer"
         },
         "incenteev/composer-parameter-handler": {
-            "install-path": "vendor/incenteev/composer-parameter-handler",
+            "install-path": "vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler",
             "installer": "composer"
         },
         "jdorn/sql-formatter": {
