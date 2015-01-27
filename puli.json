@@ -8,10 +8,6 @@
         "/app/config": "app/config"
     },
     "packages": {
-        "beberlei/assert": {
-            "install-path": "vendor/beberlei/assert",
-            "installer": "composer"
-        },
         "doctrine/annotations": {
             "install-path": "vendor/doctrine/annotations",
             "installer": "composer"
