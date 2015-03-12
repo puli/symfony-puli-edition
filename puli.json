@@ -7,6 +7,28 @@
         "/app": "app/Resources",
         "/app/config": "app/config"
     },
+    "bindings": {
+        "3b9ed229-e316-4ae2-936e-c00b7def30d2": {
+            "query": "/acme/demo-bundle/public{,/**}",
+            "type": "puli/web-resource",
+            "parameters": {
+                "path": "/demo",
+                "target": "default"
+            }
+        }
+    },
+    "plugins": [
+        "Puli\\WebResourcePlugin\\Api\\WebResourcePlugin"
+    ],
+    "extra": {
+        "install-targets": {
+            "local": {
+                "installer": "symlink",
+                "location": "web",
+                "default": true
+            }
+        }
+    },
     "packages": {
         "doctrine/annotations": {
             "install-path": "vendor/doctrine/annotations",
@@ -33,11 +55,15 @@
             "installer": "composer"
         },
         "doctrine/doctrine-cache-bundle": {
-            "install-path": "vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle",
+            "install-path": "vendor/doctrine/doctrine-cache-bundle",
             "installer": "composer"
         },
         "doctrine/inflector": {
             "install-path": "vendor/doctrine/inflector",
+            "installer": "composer"
+        },
+        "doctrine/instantiator": {
+            "install-path": "vendor/doctrine/instantiator",
             "installer": "composer"
         },
         "doctrine/lexer": {
@@ -49,7 +75,7 @@
             "installer": "composer"
         },
         "incenteev/composer-parameter-handler": {
-            "install-path": "vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler",
+            "install-path": "vendor/incenteev/composer-parameter-handler",
             "installer": "composer"
         },
         "jdorn/sql-formatter": {
@@ -112,6 +138,10 @@
             "install-path": "vendor/puli/twig-extension",
             "installer": "composer"
         },
+        "puli/web-resource-plugin": {
+            "install-path": "vendor/puli/web-resource-plugin",
+            "installer": "composer"
+        },
         "rhumsaa/uuid": {
             "install-path": "vendor/rhumsaa/uuid",
             "installer": "composer"
@@ -162,6 +192,18 @@
         },
         "twig/twig": {
             "install-path": "vendor/twig/twig",
+            "installer": "composer"
+        },
+        "webmozart/assert": {
+            "install-path": "vendor/webmozart/assert",
+            "installer": "composer"
+        },
+        "webmozart/console": {
+            "install-path": "vendor/webmozart/console",
+            "installer": "composer"
+        },
+        "webmozart/expression": {
+            "install-path": "vendor/webmozart/expression",
             "installer": "composer"
         },
         "webmozart/glob": {

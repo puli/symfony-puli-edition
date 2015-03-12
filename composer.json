@@ -22,12 +22,13 @@
         "puli/symfony-bundle": "~1.0",
         "puli/twig-extension": "~1.0",
         "puli/assetic-extension": "~1.0@dev",
-        "puli/cli": "~1.0"
+        "puli/cli": "~1.0",
+        "puli/web-resource-plugin": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "scripts": {
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
