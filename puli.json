@@ -118,12 +118,12 @@
             "install-path": "vendor/puli/factory",
             "installer": "composer"
         },
-        "puli/repository": {
-            "install-path": "vendor/puli/repository",
+        "puli/manager": {
+            "install-path": "vendor/puli/manager",
             "installer": "composer"
         },
-        "puli/repository-manager": {
-            "install-path": "vendor/puli/repository-manager",
+        "puli/repository": {
+            "install-path": "vendor/puli/repository",
             "installer": "composer"
         },
         "puli/symfony-bridge": {
