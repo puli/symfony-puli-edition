@@ -14,7 +14,7 @@
     <div class="symfony-blocks-welcome">
         <div class="block-quick-tour">
             <div class="illustration">
-                <img src="{{ asset('bundles/acmedemo/images/welcome-quick-tour.gif') }}" alt="Quick tour" />
+                <img src="{{ resource_url('../../public/images/welcome-quick-tour.gif') }}" alt="Quick tour" />
             </div>
             <a href="http://symfony.com/doc/{{ version }}/quick_tour/index.html" class="sf-button sf-button-selected">
                 <span class="border-l">
@@ -27,7 +27,7 @@
         {% if app.environment == 'dev' %}
             <div class="block-configure">
                 <div class="illustration">
-                    <img src="{{ asset('bundles/acmedemo/images/welcome-configure.gif') }}" alt="Configure your application" />
+                    <img src="{{ resource_url('../../public/images/welcome-configure.gif') }}" alt="Configure your application" />
                 </div>
                 <a href="{{ path('_configurator_home') }}" class="sf-button sf-button-selected">
                     <span class="border-l">
@@ -40,7 +40,7 @@
         {% endif %}
         <div class="block-demo">
             <div class="illustration">
-                <img src="{{ asset('bundles/acmedemo/images/welcome-demo.gif') }}" alt="Demo" />
+                <img src="{{ resource_url('../../public/images/welcome-demo.gif') }}" alt="Demo" />
             </div>
             <a href="{{ path('_demo') }}" class="sf-button sf-button-selected">
                 <span class="border-l">
