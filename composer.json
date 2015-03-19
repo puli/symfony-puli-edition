@@ -28,7 +28,7 @@
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "scripts": {
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
