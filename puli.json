@@ -9,8 +9,8 @@
     },
     "bindings": {
         "3b9ed229-e316-4ae2-936e-c00b7def30d2": {
-            "query": "/acme/demo-bundle/public{,/**}",
-            "type": "puli/web-resource",
+            "query": "/acme/demo-bundle/public{,/**/*}",
+            "type": "puli/asset-mapping",
             "parameters": {
                 "path": "/demo",
                 "target": "default"
@@ -18,7 +18,7 @@
         }
     },
     "plugins": [
-        "Puli\\WebResourcePlugin\\Api\\WebResourcePlugin"
+        "Puli\\AssetPlugin\\Api\\AssetPlugin"
     ],
     "extra": {
         "install-targets": {
@@ -98,6 +98,10 @@
             "install-path": "vendor/psr/log",
             "installer": "composer"
         },
+        "puli/asset-plugin": {
+            "install-path": "vendor/puli/asset-plugin",
+            "installer": "composer"
+        },
         "puli/assetic-extension": {
             "install-path": "vendor/puli/assetic-extension",
             "installer": "composer"
@@ -136,10 +140,6 @@
         },
         "puli/twig-extension": {
             "install-path": "vendor/puli/twig-extension",
-            "installer": "composer"
-        },
-        "puli/web-resource-plugin": {
-            "install-path": "vendor/puli/web-resource-plugin",
             "installer": "composer"
         },
         "rhumsaa/uuid": {
