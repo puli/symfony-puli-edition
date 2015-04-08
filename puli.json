@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "name": "puli/symfony-puli-edition",
-    "resources": {
+    "path-mappings": {
         "/acme/demo-bundle": "src/Acme/DemoBundle/Resources",
         "/acme/demo-bundle/controller": "src/Acme/DemoBundle/Controller",
         "/app": "app/Resources",
