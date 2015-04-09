@@ -8,9 +8,9 @@
         "/app/config": "app/config"
     },
     "bindings": {
-        "3b9ed229-e316-4ae2-936e-c00b7def30d2": {
+        "ee519a8a-4dd3-4104-8cb5-a56274c6acaf": {
             "query": "/acme/demo-bundle/public{,/**/*}",
-            "type": "puli/asset-mapping",
+            "type": "puli/asset",
             "parameters": {
                 "path": "/demo",
                 "target": "default"
