@@ -21,9 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "puli/symfony-bundle": "~1.0",
         "puli/twig-extension": "~1.0",
-        "puli/assetic-extension": "~1.0@dev",
-        "puli/cli": "~1.0",
-        "puli/asset-plugin": "~1.0"
+        "puli/composer-plugin": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

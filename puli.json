@@ -10,22 +10,18 @@
     "bindings": {
         "ee519a8a-4dd3-4104-8cb5-a56274c6acaf": {
             "query": "/acme/demo-bundle/public{,/**/*}",
-            "type": "puli/asset",
+            "type": "puli/public-resource",
             "parameters": {
                 "path": "/demo",
-                "target": "default"
+                "server": "localhost"
             }
         }
     },
-    "plugins": [
-        "Puli\\AssetPlugin\\Api\\AssetPlugin"
-    ],
     "extra": {
-        "install-targets": {
-            "local": {
+        "servers": {
+            "localhost": {
                 "installer": "symlink",
-                "location": "web",
-                "default": true
+                "document-root": "web"
             }
         }
     },
@@ -82,10 +78,6 @@
             "install-path": "vendor/jdorn/sql-formatter",
             "installer": "composer"
         },
-        "justinrainbow/json-schema": {
-            "install-path": "vendor/justinrainbow/json-schema",
-            "installer": "composer"
-        },
         "kriswallsmith/assetic": {
             "install-path": "vendor/kriswallsmith/assetic",
             "installer": "composer"
@@ -98,32 +90,12 @@
             "install-path": "vendor/psr/log",
             "installer": "composer"
         },
-        "puli/asset-plugin": {
-            "install-path": "vendor/puli/asset-plugin",
-            "installer": "composer"
-        },
-        "puli/assetic-extension": {
-            "install-path": "vendor/puli/assetic-extension",
-            "installer": "composer"
-        },
-        "puli/cli": {
-            "install-path": "vendor/puli/cli",
-            "installer": "composer"
-        },
         "puli/composer-plugin": {
             "install-path": "vendor/puli/composer-plugin",
             "installer": "composer"
         },
         "puli/discovery": {
             "install-path": "vendor/puli/discovery",
-            "installer": "composer"
-        },
-        "puli/factory": {
-            "install-path": "vendor/puli/factory",
-            "installer": "composer"
-        },
-        "puli/manager": {
-            "install-path": "vendor/puli/manager",
             "installer": "composer"
         },
         "puli/repository": {
@@ -142,12 +114,8 @@
             "install-path": "vendor/puli/twig-extension",
             "installer": "composer"
         },
-        "rhumsaa/uuid": {
-            "install-path": "vendor/rhumsaa/uuid",
-            "installer": "composer"
-        },
-        "seld/jsonlint": {
-            "install-path": "vendor/seld/jsonlint",
+        "puli/url-generator": {
+            "install-path": "vendor/puli/url-generator",
             "installer": "composer"
         },
         "sensio/distribution-bundle": {
@@ -198,20 +166,8 @@
             "install-path": "vendor/webmozart/assert",
             "installer": "composer"
         },
-        "webmozart/console": {
-            "install-path": "vendor/webmozart/console",
-            "installer": "composer"
-        },
-        "webmozart/expression": {
-            "install-path": "vendor/webmozart/expression",
-            "installer": "composer"
-        },
         "webmozart/glob": {
             "install-path": "vendor/webmozart/glob",
-            "installer": "composer"
-        },
-        "webmozart/json": {
-            "install-path": "vendor/webmozart/json",
             "installer": "composer"
         },
         "webmozart/key-value-store": {
