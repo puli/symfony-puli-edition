@@ -71,7 +71,7 @@
             "installer": "composer"
         },
         "incenteev/composer-parameter-handler": {
-            "install-path": "vendor/incenteev/composer-parameter-handler/Incenteev/ParameterHandler",
+            "install-path": "vendor/incenteev/composer-parameter-handler",
             "installer": "composer"
         },
         "jdorn/sql-formatter": {
@@ -123,7 +123,7 @@
             "installer": "composer"
         },
         "sensio/framework-extra-bundle": {
-            "install-path": "vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle",
+            "install-path": "vendor/sensio/framework-extra-bundle",
             "installer": "composer"
         },
         "sensio/generator-bundle": {

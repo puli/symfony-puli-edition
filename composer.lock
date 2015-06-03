@@ -770,17 +770,16 @@
         },
         {
             "name": "incenteev/composer-parameter-handler",
-            "version": "v2.1.0",
-            "target-dir": "Incenteev/ParameterHandler",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/84a205fe80a46101607bafbc423019527893ddd0",
+                "reference": "84a205fe80a46101607bafbc423019527893ddd0",
                 "shasum": ""
             },
             "require": {
@@ -799,8 +798,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Incenteev\\ParameterHandler": ""
+                "psr-4": {
+                    "Incenteev\\ParameterHandler\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -818,7 +817,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-12-07 10:10:39"
+            "time": "2015-06-03 08:27:03"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1255,16 +1254,16 @@
         },
         {
             "name": "puli/symfony-bundle",
-            "version": "1.0.0-beta5",
+            "version": "1.0.0-beta6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/puli/symfony-bundle.git",
-                "reference": "60a5ca684406605296c09042d2c4220376ddd737"
+                "reference": "485e3805bf489cb5a7b3a8693106a470253244e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/puli/symfony-bundle/zipball/60a5ca684406605296c09042d2c4220376ddd737",
-                "reference": "60a5ca684406605296c09042d2c4220376ddd737",
+                "url": "https://api.github.com/repos/puli/symfony-bundle/zipball/485e3805bf489cb5a7b3a8693106a470253244e5",
+                "reference": "485e3805bf489cb5a7b3a8693106a470253244e5",
                 "shasum": ""
             },
             "require": {
@@ -1273,21 +1272,15 @@
                 "puli/repository": "~1.0",
                 "puli/symfony-bridge": "~1.0",
                 "puli/url-generator": "~1.0",
-                "symfony/framework-bundle": "~2.3"
+                "symfony/framework-bundle": "^2.3"
             },
             "require-dev": {
-                "puli/assetic-extension": "~1.0@dev",
-                "puli/twig-extension": "~1.0"
+                "phpunit/phpunit": "^4.6",
+                "puli/twig-extension": "~1.0",
+                "symfony/twig-bundle": "^2.3"
             },
             "suggest": {
-                "puli/assetic-extension": "Enables Puli support in Assetic.",
-                "puli/twig-extension": "Enables Puli support in Twig.",
-                "sensio/distribution-bundle": "",
-                "sensio/framework-extra-bundle": "",
-                "sensio/generator-bundle": "",
-                "symfony/security-bundle": "",
-                "symfony/twig-bundle": "",
-                "symfony/web-profiler-bundle": ""
+                "puli/twig-extension": "Enables Puli support in Twig."
             },
             "type": "library",
             "extra": {
@@ -1312,7 +1305,7 @@
             ],
             "description": "Integrates the Puli library into the Symfony2 full-stack framework.",
             "homepage": "http://puli.io",
-            "time": "2015-05-29 13:33:51"
+            "time": "2015-06-03 09:30:52"
         },
         {
             "name": "puli/twig-extension",
@@ -1424,17 +1417,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v3.0.24",
+            "version": "v3.0.28",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "79b820aee1f1daeb2717fa9471ee19275cc1d638"
+                "reference": "8175618b07793b9d43c3be931f3d8d4c14c9e866"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/79b820aee1f1daeb2717fa9471ee19275cc1d638",
-                "reference": "79b820aee1f1daeb2717fa9471ee19275cc1d638",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/8175618b07793b9d43c3be931f3d8d4c14c9e866",
+                "reference": "8175618b07793b9d43c3be931f3d8d4c14c9e866",
                 "shasum": ""
             },
             "require": {
@@ -1480,21 +1473,20 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-05-16 12:57:08"
+            "time": "2015-06-01 15:04:20"
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.7",
-            "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
+            "version": "v3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "5c37623576ea9e841b87dc0d85414d98fa6f7abb"
+                "reference": "a30fc18bf147bc25faf6b1d54bf55cfad4b63cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/5c37623576ea9e841b87dc0d85414d98fa6f7abb",
-                "reference": "5c37623576ea9e841b87dc0d85414d98fa6f7abb",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/a30fc18bf147bc25faf6b1d54bf55cfad4b63cba",
+                "reference": "a30fc18bf147bc25faf6b1d54bf55cfad4b63cba",
                 "shasum": ""
             },
             "require": {
@@ -1507,6 +1499,7 @@
             },
             "suggest": {
                 "symfony/expression-language": "",
+                "symfony/psr-http-message-bridge": "To use the PSR-7 converters",
                 "symfony/security-bundle": ""
             },
             "type": "symfony-bundle",
@@ -1516,8 +1509,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Sensio\\Bundle\\FrameworkExtraBundle": ""
+                "psr-4": {
+                    "Sensio\\Bundle\\FrameworkExtraBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1535,7 +1528,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-04-02 12:28:58"
+            "time": "2015-05-29 18:27:23"
         },
         {
             "name": "sensiolabs/security-checker",
